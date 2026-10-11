@@ -1,0 +1,21 @@
+# Dependencies and build output
+backend/node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Environment files and local secrets
+backend/.env
+frontend/.env
+.env
+.env.*
+!.env.example
+!backend/.env.example
+
+# Runtime uploads and logs
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.log
+
+# Local editor and OS files
+.DS_Store
+.vscode/
